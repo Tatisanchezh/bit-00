@@ -1,0 +1,90 @@
+body{
+background-color: rgba(0, 0, 255, 0.114);
+}
+
+.encabezado{
+width: 100%;
+height: 100px;
+background-color: blueviolet;
+display: flex;
+justify-content: center;
+}
+.texto1{
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 100px;
+}
+.label1{
+display: flex;
+justify-content: center;
+}
+.cajaname{
+    display: flex;
+    justify-content: center;
+}
+.name1{
+width: 350px;
+height: 60px;
+border-radius: 150px;
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.label2{
+    display: flex;
+    justify-content: center;
+    }
+
+    .cajaedad{
+        display: flex;
+        justify-content: center;
+    }
+    .age1{
+        width: 350px;
+        height: 60px;
+        border-radius: 150px;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-top: 20px;
+        }
+
+        .boton{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        }
+    button {
+            border: none;
+            border-radius: 20px;
+            background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+            transition: all 1.5s ease;
+            font-family: 'Ropa Sans', sans-serif;
+            font-weight: bold;
+            letter-spacing: 0.05rem;
+            padding: 0;
+           }
+           
+           button span {
+            display: inline-flex;
+            padding: 15px 35px;
+            font-size: 17px;
+            border-radius: 20px;
+            background: #ffffff10;
+            backdrop-filter: blur(20px);
+            transition: 0.4s ease-in-out;
+            transition-property: color;
+            height: 100%;
+            width: 100%;
+           }
+           
+           button span:hover {
+            backdrop-filter: blur(0px);
+            color: #ffffff;
+           }

@@ -1,7 +1,7 @@
 "use strict";
 //EJERRCICIO 1//
-/*let nombre = prompt ("Ingresa tu nombre")
-document.write("Hola, " + nombre + "!");*/
+let nombre = prompt ("Ingresa tu nombre")
+document.write("Hola, " + nombre + "!");
 
 //EJERCICIO 2//
 /*let nombre = prompt("Ingresa tu nombre")
@@ -95,9 +95,9 @@ let resultado = (parseInt(num1) * parseInt(num2))
 document.write(`el resultado de ${num1}*${num2}=`,resultado)*/
 
 //--------------------------DIVISION--------------------//
-let num1 = prompt("ingresar numero")
+/*let num1 = prompt("ingresar numero")
 let num2 = prompt("ingresar numero")
 let resultado = (num1 / num2)
-document.write(`el resultado de ${num1}/${num2}=`,resultado);
+document.write(`el resultado de ${num1}/${num2}=`,resultado);*/
 
 
